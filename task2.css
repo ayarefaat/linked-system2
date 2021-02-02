@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+/* start Global styling */
+.container{
+    padding: 0 7%;
+    height: 100%
+}
+/* end Global styling */
+/* start header styling */
+/* start info styling */
+header .info{
+    overflow: hidden;
+}
+header .info .call{
+    float: left;
+    width: 80%
+}
+header .info .icons{
+    float: left;
+    width: 20%;
+   margin: 20px 0;
+   text-align: right;
+   font-size: 20px;
+}
+header .info .icons .face{
+    padding: 0 30px
+}
+header hr{
+    margin-top: -10px
+}
+/* end info styling */
+/* start navbar */
+header nav {
+    overflow: hidden;
+}
+header nav .logo{
+    float: left;
+    width: 30%
+}
+header nav .navbar{
+    float: left;
+    width: 70%;
+    text-align: right
+}
+header nav .navbar ul li{
+    display: inline-block;
+    padding: 10px
+}
+header nav .navbar ul li a:hover{
+   color: cadetblue;
+}
+
+/* end navbar */
+/* end header styling */
+/* start section services */
+#services{
+    background-image: url('2.jpg');
+    height: 100vh;
+    background-size: cover;
+    color: white
+}
+#services .solve{
+    padding: 70px 0
+}
+#services .solve h1{
+    font-size: 3em
+}
+#services .solve .one{
+    width: 180px;
+    height: 2px;
+    background-color: cadetblue;
+    margin-top: -22px
+}
+#services .solve .two{
+    width: 70px;
+    height: 3px;
+    background-color: cadetblue;
+    position: relative;
+    left: 110px
+}
+/* end section services */
+/* start section about */
+#about{
+    background-color: lightgray;
+    padding: 50px 0
+}
+/* #about .all{
+    position: relative;
+    top: 40px;
+} */
+#about .all .item{
+    background-color: white;
+    width: 100%;
+    height: 130px;
+    margin-bottom: 40px;
+    position: relative;
+    border-radius: 7px
+}
+#about .all .icon{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    background-color: cadetblue;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    font-size: 30px;
+    line-height: 65px;
+    color: white;
+    text-align: center;
+    border-radius: 5px
+}
+#about .all .item .header{
+   position: absolute;
+   left: 130px;
+
+}
+/* end section about */
+/* start last section */
+#last{
+    overflow: hidden;
+    background-color: rgb(9, 17, 48);
+    padding: 30px 0;
+    margin-bottom: 20px
+}
+#last .linked{
+    float: left;
+    width: 25%;
+    margin: 0 1%;
+    color: white;
+}
+#last .linked .links a{
+    color: #fff;
+}
+#last .linked .links a::before{
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    display: inline-block;
+    margin: 0 15px;
+}
+#last .linked .links a:hover{
+    color: cadetblue
+}
+#last .linked .line{
+    width: 200px;
+    height: 1px;
+    background-color: #fff;
+    margin: 8px 0
+}
+#last .linked input[type="search"]{
+    margin-top: 25px;
+    padding: 12px
+}
+#last .linked .lens{
+    width: 42px;
+    height: 42px;
+    background-color: rgb(28, 158, 209);
+    display: inline-block;
+    border-radius: 3px;
+    line-height: 38px;
+    font-size: 22px;
+    text-align: center;
+    position: relative;
+    right: 7px;
+    top:2px
+}
